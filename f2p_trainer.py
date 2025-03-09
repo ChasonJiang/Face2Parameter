@@ -242,7 +242,7 @@ class Trainer(object):
         avg_distance = 0
         self.model.eval()
         with torch.no_grad():
-            for idx, data in enumerate(self.dataLoader):
+            for idx, data in enumerate(self.val_dataLoader):
                 feat:torch.Tensor = data["feat"]
                 labels:torch.Tensor = data["label"]
                 feat=feat.to(self.device)
