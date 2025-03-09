@@ -40,10 +40,8 @@ pip install tensorboard
         ```
     - Note:
         - For the first stage:
-          - The publicly available datasets for training VAE models are: Celebra、FFHQ. And the dataset HS_FACE independently produced by this project. (upload later)
+          - The publicly available datasets for training VAE models are: Celebra、FFHQ. And the dataset [HS_FACE](https://pan.baidu.com/s/1yPftN5rmtY5QDF7G2RjN4A?pwd=p8qd) independently produced by this project. (upload later)
           - After alignment, the resolution of each image is 256x256, You can run face_alignment.py for face alignment.
         - For the second stage:
           - At this stage, we only trained on the HS_FACE dataset.
           - Training too many epochs is meaningless. In experience, around 15-30 epochs are sufficient.
-
-
