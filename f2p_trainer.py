@@ -262,9 +262,9 @@ class Trainer(object):
                 avg_similarity += similarity.item()
                 avg_distance += distance.item()
 
-        avg_loss /= len(self.dataLoader)
-        avg_similarity /= len(self.dataLoader)
-        avg_distance /= len(self.dataLoader)
+        avg_loss /= len(self.val_dataLoader)
+        avg_similarity /= len(self.val_dataLoader)
+        avg_distance /= len(self.val_dataLoader)
         print(f"val step: {self.global_val_step} | val loss: {avg_loss:.6f} | val distance: {avg_distance:.3f} | val cosine similarity: {avg_similarity:.3f}")
 
         self.tb_logger.add_scalar("val avg loss",avg_loss,self.global_val_step)
