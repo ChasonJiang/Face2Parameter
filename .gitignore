@@ -1,0 +1,6 @@
+data
+taming
+src\mtcnn_ort
+outputs
+*.pyc
+__pycache__
