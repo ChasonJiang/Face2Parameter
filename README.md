@@ -47,4 +47,4 @@ pip install tensorboard
           - Training too many epochs is meaningless. In experience, around 15-30 epochs are sufficient.
 
 ## About HS_FACE dataset
-- The HS_SACE dataset is a collection of approximately 14w facial images of game characters. It consists of three parts: 1 Facial images of game characters directly sampled from the game; 2. Use stable diffusion and use the image in 1 as a condition to generate facial images that are close to real people; 3. Facial parameters of game characters in 1.
+- The [HS_FACE](https://pan.baidu.com/s/1yPftN5rmtY5QDF7G2RjN4A?pwd=p8qd) dataset is a collection of approximately 14w facial images of game characters. It consists of three parts: 1 Facial images of game characters directly sampled from the game; 2. Use stable diffusion and use the image in 1 as a condition to generate facial images that are close to real people; 3. Facial parameters of game characters in 1.
