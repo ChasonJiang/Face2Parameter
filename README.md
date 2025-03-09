@@ -7,7 +7,9 @@
 
 ## 1. Installation
 - Firstly, you need to clone this project using the following command:
-	- git clone https://github.com/ChasonJiang/Face2Parameter.git
+```bash
+git clone https://github.com/ChasonJiang/Face2Parameter.git
+```
 - Then, you need to first install the following dependencies:
 	- Python 3.8+ 
 	- Pytorch
@@ -15,10 +17,12 @@
 	- Opencv
 	- Tensorboard
 - You can use the following installation command:
-	- pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu118
-	- pip install numpy
-	- pip install opencv-python
-	- pip install tensorboard
+```bash
+pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu118
+pip install numpy
+pip install opencv-python
+pip install tensorboard
+```
 - Recommend: It is recommended to use anaconda to install in a virtual environment
 
 ## 2. Train
