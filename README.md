@@ -1,5 +1,5 @@
 # Face2Parameter： A simple method for modeling facial parameters of game characters based on latent representation of VAE
-![architecture](assets\arch.jpg)
+![architecture](assets/arch.jpg)
 
 ## 0. Introduction
 - The project aims to use deep learning methods to modeling facial parameters of game characters from images.
